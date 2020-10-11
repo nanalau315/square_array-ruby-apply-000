@@ -13,3 +13,12 @@ def square_array(array)
   
 end
 
+
+def square_array(array)
+  
+  array.collect do |numbers|
+    
+    numbers ** 2
+    
+  end
+end
